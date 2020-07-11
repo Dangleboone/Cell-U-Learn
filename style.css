@@ -1,0 +1,54 @@
+img{
+    width: 100%;
+  }
+  p{
+    line-height: 35px;
+  }
+
+  body {
+    background-image: url("./assets/background.jpg");
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* background-size: 100% 100%; */
+  }
+
+  #mainlogo {
+      /* height: 50%; */
+      width: 50%;
+      /* justify-content: center; */
+  }
+
+  .display-4 {
+      font-family: 'Grenze Gotisch', cursive;
+      font-weight: bold;
+      text-align: center;
+  }
+
+  .customfont {
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 25px;
+    font-weight: lighter;
+  }
+
+  .nav-item {
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 25px;
+  }
+  .navbar-brand {
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 25px;
+  }
+
+  .jumbotron {
+      padding-top: 32px;
+  }
+
+  .center {
+      text-align: center;
+  }
+
+#logocontainer {
+    justify-content: center;
+    display: flex;
+  align-items: center;
+}
