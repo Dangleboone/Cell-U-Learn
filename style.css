@@ -46,6 +46,12 @@ img{
   .center {
       text-align: center;
   }
+  
+  .centerrow {
+    justify-content: center;
+    display: flex;
+  align-items: center;
+  }
 
 #logocontainer {
     justify-content: center;
