@@ -62,3 +62,13 @@ img{
 #horizontallogo {
     width: 10%;
 }
+
+#submitBtn {
+  /* float: right; */
+  border-radius: 10px 10px 10px 10px;
+}
+
+#inputbox {
+  height: 200px;
+  width: 250px;
+}
