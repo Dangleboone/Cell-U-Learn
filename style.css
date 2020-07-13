@@ -7,6 +7,7 @@ img{
 
   body {
     background-image: url("./assets/background.jpg");
+    font-family: 'Do Hyeon', sans-serif;
     /* background-repeat: no-repeat; */
     /* background-attachment: fixed; */
     /* background-size: 100% 100%; */
@@ -19,23 +20,23 @@ img{
   }
 
   .display-4 {
-      font-family: 'Grenze Gotisch', cursive;
+      font-family: 'Do Hyeon', sans-serif;
       font-weight: bold;
       text-align: center;
   }
 
   .customfont {
-    font-family: 'Grenze Gotisch', cursive;
+    font-family: 'Do Hyeon', sans-serif;
     font-size: 25px;
     font-weight: lighter;
   }
 
   .nav-item {
-    font-family: 'Grenze Gotisch', cursive;
+    font-family: 'Do Hyeon', sans-serif;
     font-size: 25px;
   }
   .navbar-brand {
-    font-family: 'Grenze Gotisch', cursive;
+    font-family: 'Do Hyeon', sans-serif;
     font-size: 25px;
   }
 
@@ -71,4 +72,37 @@ img{
 #inputbox {
   height: 200px;
   width: 250px;
+}
+
+#applelogo {
+  width: 10%;
+}
+
+#androidlogo {
+  width: 18%;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
 }
